@@ -76,8 +76,7 @@ const Editor = ({
 			placeholder: placeholderRef.current,
 			modules: {
 				toolbar: [
-					['bold', 'italic', 'strike'],
-					['link'],
+					['bold', 'italic','underline', 'strike'],
 					[{ list: 'ordered' }, { list: 'bullet' }]
 				],
 				keyboard: {

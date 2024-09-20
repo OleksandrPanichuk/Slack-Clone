@@ -15,7 +15,9 @@ const Renderer = ({ value }: RendererProps) => {
 		const container = rendererRef.current
 
 		const quill = new Quill(document.createElement('div'), {
-			theme: 'snow'
+			theme: 'snow',
+			readOnly: true,
+			
 		})
 
 		quill.enable(false)
